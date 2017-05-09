@@ -1,0 +1,1 @@
+ProductRegistry.instance=function(){return self.runtime.extension(ProductRegistry.Registry).instance();};ProductRegistry.Registry=function(){};ProductRegistry.Registry.prototype={nameForUrl:function(parsedUrl){},entryForUrl:function(parsedUrl){},typeForUrl:function(parsedUrl){},entryForFrame:function(frame){}};ProductRegistry.Registry.ProductEntry;;
